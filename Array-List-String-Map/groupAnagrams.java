@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Solution {
+class GroupAnagrams {
     public static List<List<String>> groupAnagrams(String[] strs) {
         List<List<String>> result = new ArrayList<>();     // For storing result       
         HashMap<String, List<String>> map = new HashMap<>();
@@ -24,7 +24,7 @@ class Solution {
         String[] string1 = new String[] {"eat","tea","tan","ate","nat","bat"};
         // String[] string2 = new String[] {""};
         // String[] string3 = new String[] {"a"};
-        System.out.println(Solution.groupAnagrams(string1));
+        System.out.println(GroupAnagrams.groupAnagrams(string1));
         // System.out.println(Solution.groupAnagrams(string2));
         // System.out.println(Solution.groupAnagrams(string3));
     }

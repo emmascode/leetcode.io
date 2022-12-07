@@ -12,7 +12,7 @@ class TreeNode {
     TreeNode(int x) {
         val = x;
     }
-  };
+};
   
 class ZigzagTraversal {
     public static List<List<Integer>> traverse(TreeNode root) {
