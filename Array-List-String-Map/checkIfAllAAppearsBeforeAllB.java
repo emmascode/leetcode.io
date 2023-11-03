@@ -8,14 +8,14 @@ class Solution {
         int len = s.length();
         int i = 0;
         while (i < len && ch[i] == 'a') {
-            ++i;
+            i++;
         }
        // iterate through the remainder of string s, if there is any a, return false, else return true
         while (i < len) {
             if (ch[i] == 'a') {
                 return false;
             }
-            ++i;
+            i++;
         }
         return true;
     }
